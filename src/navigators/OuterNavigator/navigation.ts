@@ -3,5 +3,7 @@ import { ParamList as ParamListInnerNavigator } from '~/navigators/InnerNavigato
 
 export type ParamList = {
   OuterNavigatorScreenA: undefined
-  OuterNavigatorScreenB: NavigatorScreenParams<ParamListInnerNavigator>
+  OuterNavigatorScreenB: NavigatorScreenParams<ParamListInnerNavigator> & {
+    someparam?: number,
+  }
 }
