@@ -1,0 +1,1 @@
+export { InnerNavigatorScreenB } from './InnerNavigatorScreenB'
